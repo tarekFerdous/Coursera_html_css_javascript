@@ -7,5 +7,5 @@ Here are the tasks completed for the course:
 2. [Assignment 2](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment2/Assignment-2.md)
     : [Solution](https://tarekferdous.github.io/Coursera_html_css_javascript/Assignment-2/index.html)
 
-3. [Guided Project 1 (On Progress)](https://www.davidchuschinabistro.com/) : 
+3. [Guided Project 1 (On Progress)](https://www.davidchuschinabistro.com/) 
     : [My work so far](https://tarekferdous.github.io/Coursera_html_css_javascript/week3%20(Project)%20-%20Restaurant%20Website/index.html)
