@@ -1,0 +1,123 @@
+body {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  font-family: "Dekko", cursive;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #afafaf;
+  border-radius: 0;
+  border: 3px solid black;
+  /* height: 80px; */
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.navbar-brand h1 {
+  /* Restaurant name */
+  color: #000000;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  border-top: 3px solid black;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 20px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container .om {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.row > section {
+  background-color: #afafaf;
+  padding: 20px 10px 20px;
+  border-width: 20px 10px 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+}
+.row div {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+}
+.row p {
+  padding-top: 5px;
+  font-weight: 600;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .row section {
+    border-bottom: 0px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .row section {
+    border-width: 20px 80px 20px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  /* End Header */
+  .row section {
+    border-width: 20px 80px 20px;
+  }
+}
+
+/********** Super Extra small devices only **********/
+@media (max-width: 479px) {
+}
