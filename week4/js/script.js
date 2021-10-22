@@ -227,21 +227,91 @@
 
 
 //For segment 3.7
-var literalCircle = {
-    radius: 10,
+// var literalCircle = {
+//     radius: 10,
 
-    getArea: function() {
-        var self = this;
-        console.log(this);
+//     getArea: function() {
+//         var self = this;
+//         console.log(this);
 
-        var increaseRadius = function() {
-            self.radius = 20;
-        }
-        increaseRadius();
-        console.log(this.radius);
+//         var increaseRadius = function() {
+//             self.radius = 20;
+//         }
+//         increaseRadius();
+//         console.log(this.radius);
 
-        return Math.PI * Math.pow(this.radius, 2);
+//         return Math.PI * Math.pow(this.radius, 2);
+//     }
+// };
+
+// console.log(literalCircle.getArea());
+
+
+
+//For segment 4.1
+// var array = new Array();
+// array[0] = "Tarek";
+// array[1] = 2;
+// array[2] = function (name) {
+//     console.log("Hello " + name);
+// };
+// array[3] = {course: "HTML, CSS & JS"};
+
+// console.log(array);
+// console.log(array[1]);
+// array[2](array[0]);
+// console.log(array[3].course);
+
+// //short hand array creation
+// var names = ["Tarek", "Ferdous"];
+// console.log(names);
+
+// for (var i = 0; i<names.length; i++) {
+//     console.log("Hello " + names[i]);
+// }
+
+// names[100] = "Jim";
+// for (var i = 0; i<names.length; i++) {
+//     console.log("Hello " + names[i]);
+// }
+
+
+
+//For segment 4.2
+// var names2 = ["Tarek", "Ferdous", "Jim"];
+// var myObj = {
+//     name: "Tarek",
+//     course: "HTML/CSS/JS",
+//     platform: "Coursera"
+// };
+
+// for (var prop in myObj) {
+//     console.log(prop + ": " + myObj[prop]);
+// }
+
+// for(var name in names2) {
+//     console.log("Hello " + names2[name]);
+// }
+
+// names2.greeting = "Hi!";
+// for(var name in names2) {
+//     console.log("Hello " + names2[name]);
+// }
+
+
+
+//For segmnent 4.3
+function makeMultiplier (multiplier) {
+    function b() {
+        console.log("Multiplier is: " + multiplier);
     }
-};
+    b();
 
-console.log(literalCircle.getArea());
+    return (
+        function (x) {
+            return multiplier * x;
+        }
+    );
+}
+var doubleAll = makeMultiplier(2);
+console.log(doubleAll(10));
