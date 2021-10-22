@@ -14,3 +14,6 @@ Here are the tasks completed for the course:
 
 4. [Assignment 3](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md)
    : [Solution](https://tarekferdous.github.io/Coursera_html_css_javascript/Assignment-3/index.html)
+
+5. [Assignment 4](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/Assignment-4.md)
+   : [Solution](https://tarekferdous.github.io/Coursera_html_css_javascript/Assignment-4/index.html)
